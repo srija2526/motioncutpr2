@@ -1,0 +1,108 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    background-image: url("ChatGPT\ Image\ May\ 5\,\ 2025\,\ 07_44_24\ PM.png");
+    background-size: cover;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color:rgb(3, 197, 250);
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #cccccc;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    color: #05acff;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+  }
+  
+  /* Image positioning */
+  .top-right-image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    height: auto;
+  }
+  
+  /* Center container */
+  .center {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Website link styling */
+  .white-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .white-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* RSVP Button */
+  .rsvp-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #00ffe7;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 255, 231, 0.4);
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .rsvp-button:hover {
+    background-color: #02d3c5;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h4, h2, p {
+      font-size: 1rem;
+    }
+  
+    .top-right-image {
+      position: static;
+      margin: 20px auto;
+      display: block;
+    }
+  
+    .rsvp-button {
+      padding: 12px 24px;
+      font-size: 1rem;
+    }
+  }
+  
